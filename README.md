@@ -76,3 +76,5 @@ MeshReducer.show_ui()
 * **运行环境**: 兼容 Maya 2018+ (支持 Python 2.7 与 Python 3.x)。
 * **底层 API**: 大量依赖 `maya.api.OpenMaya` (OM2) 实现网格空间运算（如点法线判断、UV面积极速求和、射线碰撞检测 `closestIntersection`）。
 * **UI 框架**: 采用原生 `maya.cmds` 配合 `workspaceControl`，确保跨版本界面一致性且无额外依赖。
+
+grandakun@gmail.com
